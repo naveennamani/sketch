@@ -1,0 +1,36 @@
+.dragndrop {
+	display:grid;
+	height:50%;
+	width:100%;
+}
+.shining {
+	opacity:0.3;
+	border:10px solid red;
+}
+.row {
+	border:1px solid green;
+}
+input {
+	width:100%;
+}
+.sketch img {
+	width:100%;
+}
+/*
+.container {
+	width:90%;
+	display:table;
+	margin:10px auto;
+}
+.container .sketch {
+	width:100%;
+	display:table-cell;
+}
+.container img {
+	width:90%;
+}
+.container .settings-pane {
+	vertical-align:top;
+	display:table-cell;
+}
+*/

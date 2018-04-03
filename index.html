@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<meta name='viewport' content='width=device-width,initial-scale=1.0'/>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+		<script src='utils.js'></script>
+		<script src='imageutils.basic.js'></script>
+		<script src='main.js'></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href='style.css' rel='stylesheet'/>
+	</head>
+	<body>
+		<div id='dnd' class='container border border-primary dragndrop custom-file align-content-center'>
+			<div>
+				<input type='file' id='fc' class='custom-file-input' value='click to choose a photo'/>
+				<label class="custom-file-label" for="fc">Choose file</label>
+			</div>
+			<div class='text-center'>
+				Drag and drop your image here or choose here
+			</div>
+		</div>
+		<div id='images-panel' class='container'>
+		</div>
+	</body>
+</html>
